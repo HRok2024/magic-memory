@@ -1,11 +1,29 @@
-# Getting Started with Create React App
+# Magic Memory - 카드 맞추기 게임 웹 애플리케이션
 
-CLI 에서 이 프로젝트 폴더로 이동후 아래의 코드 넣기
+이 프로젝트는 **Magic Memory**라는 카드 맞추기 게임 웹 애플리케이션입니다. 사용자는 뒤집힌 카드를 두 개씩 선택하여 같은 이미지를 맞추는 게임입니다. 모든 카드를 맞추는 것이 목표입니다. 이 웹 애플리케이션은 `create-react-app`으로 생성된 리액트 앱입니다.
 
-### `npm install`
+## 🚀 기능
 
+- **카드 맞추기**: 카드들을 뒤집어 두 개씩 선택하여 같은 이미지를 맞추는 게임입니다.
+- **새 게임 시작**: 게임 중 언제든지 새 게임을 시작할 수 있습니다.
+- **게임 턴 수**: 사용자가 게임을 진행하면서 턴 수가 기록됩니다.
+- **반응형 디자인**: 모바일 및 데스크탑 화면에서 모두 원활하게 작동합니다.
 
-### `npm start`
+## 🌐 배포
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+이 프로젝트는 **Netlify**에 배포되었습니다. 아래 링크에서 사이트를 확인할 수 있습니다.
+
+- [Magic Memory 웹앱 배포 링크](https://your-deployed-app-link.com)
+
+## 🧑‍💻 기술 스택
+
+- **React**: 사용자 인터페이스 구성
+- **CSS**: 스타일링 (각 컴포넌트 별로 CSS 모듈 사용)
+- **create-react-app**: 리액트 애플리케이션 템플릿
+
+## 🎮 게임 구성
+
+### 주요 컴포넌트
+
+- **App.jsx**: 게임의 로직을 담당하며 카드 배열을 섞고, 선택한 카드들을 비교하여 맞추는 기능을 제공합니다.
+- **SingleCard.jsx**: 각 카드의 상태를 처리하고, 카드 선택 시 이미지를 뒤집는 기능을 제공합니다.
